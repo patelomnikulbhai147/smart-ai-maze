@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:5000';
+const API = "https://smart-ai-maze-backend.onrender.com";
 
 export async function generateMaze(width, height) {
   const res = await fetch(`${API_URL}/generate-maze`, {
